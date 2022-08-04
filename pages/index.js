@@ -47,6 +47,7 @@ export default function Home() {
                   width={200}
                   height={200}
                   className="rounded"
+                  alt={country.name + " flag"}
                 />
                 <p className="text-md">Nacionalidad: {country.nationality}</p>
                 <div className="flex space-x-2">
