@@ -28,7 +28,7 @@ class FaunaClient {
       .query(
         Map(
           Paginate(Documents(Collection("countries")), {
-            size: 10,
+            size: 25,
             after: Ref(Collection("countries"), "338258318158987336"),
           }),
           Lambda(["ref"], Get(Var("ref")))
